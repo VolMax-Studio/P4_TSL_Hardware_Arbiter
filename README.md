@@ -47,3 +47,9 @@ The waveform below, captured on a Voltcraft DSO-2104, displays the transition fr
 The plot below, reconstructed from raw high-resolution measurement data (`data_201134.bin`), demonstrates the timing delta between the fault detection threshold and the final actuator cutoff event:
 
 ![Matplotlib Latency Plot](results/P4_TSL_latency_measurement.png)
+
+### 3. Physical Verification Setup
+The photograph below shows the hardware testbench, including the breadboard prototype (featuring the safety-critical decoupling loop) connected to the Voltcraft DSO-2104 oscilloscope for latency measurements:
+
+![Physical Verification Setup](results/volmax_p4_physical_setup.jpg)
+
